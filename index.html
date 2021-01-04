@@ -1,18 +1,11 @@
-<!-- 
-  Hello 😊.
 
-  This template is designed and developed by Nisar Hassan Naqvi
-  for anyone to use for free or customize the way they like.
 
-  Github Repo: https://github.com/nisarhassan12/portfolio-template/
-  My Website: https://nisar.dev
+<!-- intro banner  -->
+<!-- about me   -->
+<!-- skills  -->
+<!-- my work   -->
+<!-- Education and certificates -->
 
-  For business & inquires, contact me => syednisarhassan12@gmail.com
--->
-
-<!--
-  Follow the instructions written in comments to create your stunning portfolio
--->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -41,8 +34,9 @@
     <div class="row">
       <nav class="nav" role="navigation">
         <ul class="nav__items">
+          <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
           <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-          <li class="nav__item"><a href="#clients" class="nav__link">Clients</a></li>
+          <li class="nav__item"><a href="#education" class="nav__link">Education  </a></li>
           <li class="nav__item">
             <a href="#about" class="nav__link">About</a>
           </li>
@@ -55,7 +49,7 @@
     <div class="header__text-box row">
       <div class="header__text">
         <h1 class="heading-primary">
-          <span> Abdurrahman gad </span>
+          <span> Abdel_rahman Azmy Gad </span>
         </h1>
         <!-- Put a small paragraph about yourself -->
         <p> A full stack engineer  based in cairo - egypt.</p>
@@ -65,6 +59,57 @@
   </header>
 
   <main role="main">
+
+     <!-- ***** Work ***** -->
+
+     <section class="work" id="skills">
+      <div class="row">
+        <h2>My Skills</h2>
+        <div class="work__boxes">
+
+          <!-- Each div with the work__box class is a project. -->
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Front End</h3>
+              
+              <ul class="work__list">
+                <li>HTML</li>
+                <li>Css , Sass , Bootstrap  </li>
+                <li>JavaScript-es6 , Typescript</li>
+                <li>React , Redux </li>
+              </ul>
+
+            </div>
+            <div class="work__text">
+              <h3>Back end</h3>
+              
+              <ul class="work__list">
+                <li> Node js , Express</li>
+                <li> Nosql , mongodb  </li>
+                <li> Sql , MySql, Postgresql </li>
+                <!-- <li> Php , Laravel , wordpress</li> -->
+                <li>Creating and consuming  APIs</li>
+              </ul>
+
+             
+            </div>
+            <div class="work__text">
+              <h3>Other tools , platforms and skills </h3>             
+              <ul class="work__list">
+                <li>Data-structure , Algorithms</li>
+                <li>OOP, MVC , UML</li>
+                <li>Heroku , Netlify , Firebase</li>
+                <li>Git , Github , Docker , kubernetes</li>
+                <li>Webpack</li>
+                <li>Code Documenting </li>
+              </ul>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- ***** Work ***** -->
 
@@ -77,106 +122,427 @@
 
           <div class="work__box">
             <div class="work__text">
-              <h3>Portfolio Template</h3>
+              <h3>Online BookStore </h3>
               <p>
-                A free Open Source Portfolio for anyone to use for free.
+                Online bookshop built in mern stack,
+                user can view books , add book to cart , login , register ,  
+                admin can add books , delete books ,update books , add categoris delete categoris , control users ,
+                multiple payment methods
               </p>
               <ul class="work__list">
-                <li>HTML</li>
-                <li>SCSS</li>
-                <li>JavaScript</li>
-                <li>Parcel</li>
+                <li>Mongodb</li>
+                <li>React</li>
+                <li>Node js</li>
+                <li>Express </li>
               </ul>
 
               <div class="work__links">
-                <a href="https://nisar.surge.sh" target="_blank" class="link__text">
+                <a href="https://gad-book-store.herokuapp.com" target="_blank" class="link__text">
                   Visit Site <span>&rarr;</span>
                 </a>
-                <a href="https://github.com/nisarhassan12/portfolio" title="View Source Code" target="_blank">
+                <a href="https://github.com/abdelrahman-gad/gad-book-store" title="View Source Code" target="_blank">
                   <img src="./images/github.svg" class="work__code" alt="GitHub">
                 </a>
               </div>
             </div>
             <div class="work__image-box">
-              <img src="./images/projects/bizlighttheme.PNG" class="work__image" alt="Project 1" />
+              <img src="./images/projects/gad-bookstore.PNG" class="work__image" alt="Project 1" />
             </div>
           </div>
 
           <div class="work__box">
             <div class="work__text">
-              <h3>Calculator</h3>
+              <h3>Covid19 Track </h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
-                eius.
+               Covid19 live app consuming api and convert data into Charts ,
+               tables and maps  
               </p>
               <ul class="work__list">
                 <li>React</li>
-                <li>Next.js</li>
-                <li>Node</li>
-                <li>MongoDB</li>
+                <li>Material UI</li>
+                <li>API</li>
+                <li>Geojson api</li>
               </ul>
 
               <div class="work__links">
-                <a href="#" class="link__text">
+                <a href="https://live-corona-virus-meter.herokuapp.com" class="link__text">
                   Visit Site <span>&rarr;</span>
                 </a>
-                <a href="#">
+                <a href="https://github.com/abdelrahman-gad/corona-virus-meter">
                   <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
                 </a>
               </div>
             </div>
             <div class="work__image-box">
-              <img src="./images/project-2.png" class="work__image" alt="Project 1" />
+              <img src="./images/projects/corona-virus-tracker.PNG" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Developers Social Media Platform</h3>
+              <p>
+                Social media platform , user can create profile and join this social media that is designed 
+                for developers , user can add education items and experience items ,
+                user can create posts , comment on posts ,
+                user can like and react to posts and comments,
+                it also has a notifications feature
+              </p>
+              <ul class="work__list">
+                <li>React</li>
+                <li>Redux</li>
+                <li>React-formik </li>
+                <li>firebase</li>
+                <li>Sass</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://react-dev-connector.herokuapp.com" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/abdelrahman-gad/react-dev-connect">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/projects/react-firebase-dev-connect.PNG" class="work__image" alt="Project 3" />
+            </div>
+          </div>
+
+          
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Shopping Cart</h3>
+              <p>
+                Shoping cart page where user can add products to cart , adjust quantity 
+                , remove products built in html css and native js 
+                -documented using js doc package
+              </p>
+              <ul class="work__list">
+                <li>Html</li>
+                <li>Css</li>
+                <li>js </li>
+                <li>jsDoc</li>
+                <li>Sass</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://comfyhousestuff.netlify.app" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://comfyhousestuff.netlify.app/docs/index.js.html" class="link__text">
+                  view documentaion <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/abdelrahman-gad/comfyHouseFurniture">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/projects/js-ecommerce.PNG" class="work__image" alt="Project 3" />
             </div>
           </div>
 
           <div class="work__box">
             <div class="work__text">
-              <h3>Notificator</h3>
+              <h3>Voting App Single Page App</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
-                eius.
+                Pure JS single Page App for voting up or down on request and also super user capability to add request and also deleting
               </p>
               <ul class="work__list">
-                <li>React</li>
-                <li>Next.js</li>
-                <li>Node</li>
-                <li>MongoDB</li>
+                <li>Html</li>
+                <li>Css</li>
+                <li>js </li>
               </ul>
 
               <div class="work__links">
-                <a href="#" class="link__text">
+                <a href="https://native-js-spa-voting-app.netlify.app" class="link__text">
                   Visit Site <span>&rarr;</span>
                 </a>
-                <a href="#">
+                
+                <a href="https://github.com/abdelrahman-gad/voting-app-front-end">
                   <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
                 </a>
               </div>
             </div>
             <div class="work__image-box">
-              <img src="./images/project-3.png" class="work__image" alt="Project 3" />
+              <img src="./images/projects/native-js-voting-app.PNG" class="work__image" alt="Project 3" />
             </div>
           </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Premium e-commerce template</h3>
+              <p>
+                template contains most pages might be needed in any ecommerce website 
+                home , about , contact , checkout , categories 
+              </p>
+              <ul class="work__list">
+                <li>Html</li>
+                <li>Css</li>
+                <li>Sass</li>
+                <li>Bootstrap</li>
+                <li>Jquery</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://premium-ecommerce-template.netlify.app" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                
+                <a href="https://github.com/abdelrahman-gad/premium-ecommerce-front-end">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/projects/premium-e-commerce-templates.PNG" class="work__image" alt="Project 3" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>phones store cart</h3>
+              <p>
+
+              </p>
+              <ul class="work__list">
+                <li>html</li>
+                <li>css</li>
+                <li>react</li>
+                <li>context-api</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://phones-store.netlify.app/" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                
+                <a href="https://github.com/abdelrahman-gad/react-phones-store">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/projects/react-phones-store.PNG" class="work__image" alt="Project 3" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Riddit Search appp</h3>
+              <p>
+                searcj anything in reddit and get results 
+              </p>
+              <ul class="work__list">
+                <li>Html</li>
+                <li>css</li>
+                <li>vanilla js</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://reddit-search-app-api.netlify.com/" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                
+                <a href="https://github.com/abdelrahman-gad/reddit-api-app">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/projects/js-reddit-api.PNG" class="work__image" alt="Project 3" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Text to sound </h3>
+              <p>
+                  type whatever and get the voice with your  desired rate and pithc
+              </p>
+              <ul class="work__list">
+                <li>html </li>
+                <li>css</li>
+                <li>js</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://text-to-sound.netlify.com" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                
+                <a href="https://github.com/abdelrahman-gad/text-to-sound-app">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/projects/text-to-sound.PNG" class="work__image" alt="Project 3" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Memory Game</h3>
+              <p>
+
+              </p>
+              <ul class="work__list">
+                <li>html</li>
+                <li>css</li>
+                <li>js</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://js-memory-game.netlify.com" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                
+                <a href="https://github.com/abdelrahman-gad/js_memory_game">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/projects/js-memory-game.PNG" class="work__image" alt="Project 3" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Flexy Landing Page</h3>
+              <p>
+            
+              </p>
+              <ul class="work__list">
+                <li>html</li>
+                <li>css</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://flexy-theme.netlify.app" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                
+                <a href="https://github.com/abdelrahman-gad/flexy">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/projects/flexy-theme.PNG" class="work__image" alt="Project 3" />
+            </div>
+          </div>
+
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Flat Landing Page</h3>
+              
+              <ul class="work__list">
+                <li>Html</li>
+                <li>Css</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://flat-theme.netlify.app" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                
+                <a href="https://github.com/abdelrahman-gad/flat_theme">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/projects/flat-theme.PNG" class="work__image" alt="Project 3" />
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
 
-    <!-- ***** Clients ***** -->
+     <!-- ***** Education  ***** -->
 
-    <section class="client" id="clients">
+     <section class="work" id="education">
       <div class="row">
-        <h2>Clients</h2>
-        <div class="client__logos">
-          <!-- Add logos of the clients or companies you'have worked with. -->
-          <img src="./images/ronjones.png" class="client__logo" alt="Company 2" />
-          <img src="./images/goldengrid.png" class="client__logo" alt="Company 3" />
-          <img src="./images/bullseye.png" class="client__logo" alt="Company 1" />
-          <img src="./images/mighty-furnitures.png" class="client__logo" alt="Company 1" />
-          <img src="./images/fastlane.png" class="client__logo" alt="Company 3" />
-          <img src="./images/chippy.png" class="client__logo" alt="Company 1" />
+        <h2>My Education and certificates</h2>
+        <div class="work__boxes">
+
+          <!-- Each div with the work__box class is a project. -->
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Faculty of Engineering  </h3>
+              <h3>Al-azhar university in cairo - egypt  </h3>
+              <p>
+               Computers and Systems Department
+              </p>
+              <ul class="work__list">
+                <li> 2014-2020 </li>
+                <li>GPA [2.7] [Good] </li>
+              </ul>
+
+            </div>
+            <div class="">
+              <img height="400" src="./images/certificates/computers-and-system-graduation-certificate-english.PNG" class="work__image" alt="Project 1" />
+              <img height="400" src="./images/certificates/computers-and-system-graduation-certificate-arabic.PNG" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Responsive Web Design From Freecodecamp</h3>
+              <div class="work__links">
+                <a href="https://www.freecodecamp.org/certification/abdel-rahman/responsive-web-design" class="link__text">
+                  View Certificate on Freecodecamp <span>&rarr;</span>
+                </a>
+                
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/certificates/fcc-responsive-web-design.PNG" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>javascript algorithms and datastructure From Freecodecamp</h3>
+            
+              <div class="work__links">
+                <a href="https://www.freecodecamp.org/certification/abdel-rahman/javascript-algorithms-and-data-structures" class="link__text">
+                  View Certificate on Freecodecamp <span>&rarr;</span>
+                </a>
+                
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/certificates/fcc-data-structure-and-algorithms.PNG" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+          <div class="work__box">
+            <div class="work__text">
+              <h3>front-end libraries From Freecodecamp</h3>
+            
+              <div class="work__links">
+                <a href="https://www.freecodecamp.org/certification/abdel-rahman/front-end-libraries" class="link__text">
+                  View Certificate on Freecodecamp <span>&rarr;</span>
+                </a>
+                
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/certificates/fcc-front-end-libraries.PNG" class="work__image" alt="Project 1" />
+            </div>
+          </div>
         </div>
       </div>
     </section>
+  
 
     <!-- ***** About ***** -->
 
@@ -187,13 +553,10 @@
           <div class="about__text">
             <!-- Replace the below paragraph with info about yourself -->
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos id
-              nostrum illo harum blanditiis, tenetur eum suscipit cupiditate
-              in vel, ex quam quidem quos mollitia labore aut sunt eius
-              ratione molestiae fuga veniam facere similique voluptate.
+              Reliable,focused, ambitious, quick learner, full-‎stack software engineer, skilled at completing ‎daily assignments and contributing to team ‎success. Always willing to take on any task. ‎Adapts quickly to new needs and deliverables.‎
             </p>
             <!-- Provide a link to your resume -->
-            <a href="#" class="btn">My Resume</a>
+            <a href="https://drive.google.com/file/d/1EDtS2LkiQfNnULtkTgSAVOxB2fAruJW5/view?usp=sharing" class="btn">My Resume</a>
           </div>
 
           <div class="about__photo-container">
@@ -220,7 +583,7 @@
           me is via an email.
         </p>
         <!-- Replace the email with yours -->
-        <a href="mailto:you@example.com" class="btn">you@example.com</a>
+        <a href="mailto:abdelrahmangad95@gmail.com" class="btn">abdelrahmangad95@gmail.com</a>
       </div>
     </div>
   </section>
@@ -231,38 +594,25 @@
     <div class="row">
       <!-- Update the links to point to your accounts -->
       <ul class="footer__social-links">
+       
         <li class="footer__social-link-item">
-          <a href="https://twitter.com/nisarhassan12/" title="Link to Twitter Profile">
-            <img src="./images/twitter.svg" class="footer__social-image" alt="Twitter">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href="https://github.com/nisarhassan12/" title="Link to Github Profile">
+          <a href="https://github.com/abdelrahman-gad/" title="Link to Github Profile">
             <img src="./images/github.svg" class="footer__social-image" alt="Github">
           </a>
         </li>
         <li class="footer__social-link-item">
-          <a href="https://codepen.io/nisar_hassan" title="Link to Codepen Profile">
+          <a href="https://codepen.io/AbdurrahmanGad" title="Link to Codepen Profile">
             <img src="./images/codepen.svg" class="footer__social-image" alt="Codepen">
           </a>
         </li>
         <li class="footer__social-link-item">
-          <a href=https://www.linkedin.com/in/nisar-hassan-naqvi-413466199/">
+          <a href=https://www.linkedin.com/in/abdelrahman-azmy-b3419b150/">
             <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
           </a>
         </li>
       </ul>
 
-      <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
-      <p>
-        &copy; 2020 - Template designed & developed by <a href="https://nisar.dev" class="link">Nisar</a>.
-      </p>
-      <div class="footer__github-buttons">
-        <iframe
-          src="https://ghbtns.com/github-btn.html?user=nisarhassan12&repo=portfolio-template&type=watch&count=true"
-          frameborder="0" scrolling="0" width="170" height="20" title="Watch Portfolio Template on GitHub">
-        </iframe>
-      </div>
+     
     </div>
   </footer>
 
