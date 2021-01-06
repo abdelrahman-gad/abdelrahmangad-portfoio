@@ -440,15 +440,27 @@ body:not(.user-is-tabbing) a:focus {
 /* ----- Work ----- */
 /* --------------------------------------- */
 
+.work__boxes{
+    /* border: 2px solid green; */
+}
+
+
 .work__box {
     display: flex;
     align-items: center;
 }
 
+.work__text .last{
+    order: 3;
+}
+
 @media(max-width: 900px) {
     .work__box {
         align-items: initial;
-        flex-direction: column-reverse;
+        flex-direction: column;
+    }
+    img.work__image{
+        margin-top: 20px !important;
     }
 }
 
@@ -488,6 +500,11 @@ body:not(.user-is-tabbing) a:focus {
     transform: scale(1.2);
 }
 
+
+.certificates{
+    display: flex;
+    justify-content: space-around;
+}
 .work__image-box {
     margin-bottom: var(--gutter-normal);
 }
