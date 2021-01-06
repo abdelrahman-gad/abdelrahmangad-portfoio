@@ -501,15 +501,19 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 
+.certificates{
+    display: flex;
+    justify-content: space-around;
+}
 
+    
 @media(max-width: 900px) {
     .certificates{
         flex-wrap: wrap;
     }
     .certificates .certificate{
         width: 100% !important;
-       
-       
+        margin-top: 10px;
       }
 }
 
